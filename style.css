@@ -40,7 +40,7 @@ animation-delay: 1.2s;
 animation-delay: 1.6s;
 }
 
-.hero__name
+.hero-name
 {
     font-size: 2em;
     width: 100vw;
@@ -53,7 +53,7 @@ animation-delay: 1.6s;
     justify-content: center;
 }
 
-.parrot__background
+.parrot
 {
     height: 100vh;
     display: flex;
@@ -63,9 +63,9 @@ animation-delay: 1.6s;
     background-size: 100%;
 }
 
-.hero__background
+.hero-background
 {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -80,14 +80,62 @@ animation-delay: 1.6s;
     width: 100vw;
     margin-top: 0;
     margin-bottom: 0;
-    height: 4em;
+    height: 10em;
+    background-color: #342e37;
+    box-shadow: 10px, 10px, black;
+}
+
+.break-text
+{
+    width: 100vw;
+    height: 3em;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     color: lightgray;
     font-size: 2em;
     font-family: 'Share';
-    background-color: #342e37;
     text-transform: uppercase;
-
 }
+
+.about__me
+{
+    width: 100vw;
+    height: 30em;
+    background-color: #1d8a99;
+}
+
+.about__me-section
+{
+    position: relative;
+    height: 30em;
+    display: grid;
+    grid-template-columns: 60% 40%
+}
+
+.about__me-text
+{
+    margin-left: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    text-transform: uppercase;
+    font-family: 'Comfortaa';
+}
+
+.image-cropper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.about__me-image
+{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
