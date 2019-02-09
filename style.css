@@ -70,7 +70,7 @@ animation-delay: 1.6s;
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
+    z-index: -2;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
 }
 
@@ -103,7 +103,8 @@ animation-delay: 1.6s;
 {
     width: 100vw;
     height: 30em;
-    background-color: #1d8a99;
+    z-index: -1;
+    background-color: linear-gradient(-141deg, red, green) ;
 }
 
 .about__me-section
@@ -111,14 +112,14 @@ animation-delay: 1.6s;
     position: relative;
     height: 30em;
     display: grid;
-    grid-template-columns: 60% 40%
+    grid-template-columns: 50% 50%
 }
 
 .about__me-text
 {
-    margin-left: 2em;
+    margin-left: 5em;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     color: lightgray;
     text-transform: uppercase;
@@ -126,16 +127,20 @@ animation-delay: 1.6s;
 }
 
 .image-cropper {
+    width: 100px;
+    height: 100px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 5px 5px 8px #1d8a99;
+    opacity: 0.95;
 }
 
 .about__me-image
 {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
+    display: flex;
+    margin: auto;
+    height: 50%;
     width: auto;
 }
 
