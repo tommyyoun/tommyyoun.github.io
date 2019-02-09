@@ -112,15 +112,14 @@ animation-delay: 1.6s;
     position: relative;
     height: 30em;
     display: grid;
-    grid-template-columns: 50% 50%
+    grid-template-columns: 60% 40%
 }
 
 .about__me-text
 {
-    margin-left: 5em;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+    margin: auto 5rem;
+    height: 50%;
+    width: auto;
     color: lightgray;
     text-transform: uppercase;
     font-family: 'Comfortaa';
@@ -132,13 +131,12 @@ animation-delay: 1.6s;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    box-shadow: 5px 5px 8px #1d8a99;
+    /*box-shadow: 5px 5px 8px #1d8a99;*/
     opacity: 0.95;
 }
 
 .about__me-image
 {
-    display: flex;
     margin: auto;
     height: 50%;
     width: auto;
