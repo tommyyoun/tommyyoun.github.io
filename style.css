@@ -43,9 +43,9 @@ animation-delay: 1.6s;
 .hero-name
 {
     font-size: 2em;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    color: lightgray;
+    color: rgb(239, 242, 245);
     font-family: 'Share';
     position: absolute;
     display: flex;
@@ -68,7 +68,7 @@ animation-delay: 1.6s;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: -2;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
@@ -77,32 +77,29 @@ animation-delay: 1.6s;
 .break
 {
     position: relative;
-    width: 100vw;
+    width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     height: 10em;
-    background-color: #342e37;
+    background-color: #472557;
     box-shadow: 10px, 10px, black;
 }
 
-.break-text
+.about__me-text
 {
-    width: 100vw;
+    width: 100%;
     height: 3em;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: lightgray;
-    font-size: 2em;
+    margin-left: 6rem;
+    color: rgb(239, 242, 245);
+    font-size: 3em;
     font-family: 'Share';
     text-transform: uppercase;
 }
 
 .about__me
 {
-    width: 100vw;
-    height: 60em;
+    width: 100%;
+    height: 100%;
     z-index: -1;
     background-color: linear-gradient(-141deg, red, green) ;
 }
@@ -115,15 +112,34 @@ animation-delay: 1.6s;
     grid-template-columns: 60% 40%
 }
 
-.about__me-text
+.about__me-paragraph1
 {
-    margin: auto 5rem;
+    text-align: center;
+    margin: 12rem auto auto 8rem;
     height: 50%;
     width: auto;
-    color: lightgray;
+    color: rgb(239, 242, 245);
     text-transform: uppercase;
     font-family: 'Comfortaa';
     font-size: 15pt;
+}
+
+.about__me-paragraph2
+{
+    text-align: center;
+    margin: auto auto auto 8rem;
+    height: 50%;
+    width: auto;
+    color: rgb(239, 242, 245);
+    text-transform: uppercase;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+}
+
+.about__me-paragraph1-format
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .image-cropper {
@@ -131,15 +147,41 @@ animation-delay: 1.6s;
     height: 100px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     /*box-shadow: 5px 5px 8px #1d8a99;*/
     opacity: 0.95;
 }
 
 .about__me-image
 {
-    margin: auto;
-    height: 50%;
+    margin-left: 4rem;
+    margin-top: 3.5rem;
+    height: 12em;
     width: auto;
+    box-shadow: 5px 5px 8px #342e37;
 }
 
+.box1
+{
+    width: 20em;
+    height: 8em;
+    background: rgb(135, 81, 139);
+    box-shadow: -5px 5px 8px #342e37;
+}
+
+.box1-pos1
+{
+    margin-top: 3em;
+    position: absolute;
+    z-index: 1;
+}
+
+.box1-pos2
+{
+    width: 90%;
+    height: 1em;
+    margin-top: 10rem;
+    margin-left: 10%;
+    z-index: -1;
+    box-shadow: 5px 5px 8px #342e37;
+}
