@@ -54,8 +54,14 @@ animation-delay: 1.6s;
 
 footer
 {
+    width: 100vw;
     height: 10vh;
     background: #b7e3cc;
+}
+
+.footer
+{
+    width: 100vw;
 }
 
 .transparent
@@ -78,7 +84,7 @@ footer
 .parrot
 {
     bottom: 0;
-    right: 3rem;
+    right: 3.5rem;
     position: absolute;
     height: 8rem;
 }
