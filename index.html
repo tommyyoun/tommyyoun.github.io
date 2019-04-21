@@ -1,70 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Concert+One|Staatliches|Meera+Inimai|Viga|Karla|Share" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Nunito|Open+Sans|Rubik|Work+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Tommy Youn</title>
 </head>
 <body>
-        <!--<div>
-            <a href="https://www.facebook.com/tommy.youn.31">
-                <span data-aos="fade-in" data-aos-duration="3000" style="font-size: 3em;">
-                    <i class="fab fa-facebook"></i>
-                </span>
-            </a>
-        </div>-->
-        <div class="fade-in hero-name">
-            <h1>TOMMY YOUN</h1>
+  <div class="jumbotron fade-in hero">
+    <div class="container">
+      <div class="col">
+        <h1 class="display-4">Tommy Youn</h1>
+        <p class="lead">A Computer Science Student at Cal Poly SLO</p>
+      </div>
+      <hr class="my-4">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Projects</h2>
+          <p><strong><a href="https://github.com/toyoun/betterbookmarks" target="_blank">Better Bookmarks</a></strong> - Chrome and Firefox extension built using React.js and Redux that displays navigatable bookmarks on the new tab page</p>
+          <p><strong><a href="https://github.com/toyoun/emailapp" target="_blank">Email Web App</a></strong> - Implemented web app with React.js which leverages REST API calls, and utilizes Redux and client-side routes with React Router to save input between separate viewports</p>
+          <p><strong><a href="https://github.com/toyoun" target="_blank">And more...</a></strong></p>
         </div>
-        <div class="parrot">
-            <img src="https://railsgirlssummerofcode.org/img/blog/2016/l1ghtsab3r-partyparrot.gif">
+        <div class="col">
+          <h2>Experience</h2>
+          <p><strong><a href="https://scholars.calpoly.edu/" target="_blank">Cal Poly Scholars</a></strong> - Web developing and administrating events for a program consisting of over 500 students</p>
+          <h2>Awards</h2>
+          <p class="award"><strong>Best Google Cloud Platform Hack at SLOHacks 2018</strong></p>
+          <p class="award"><strong>Valedictorian at Hollywood High School</strong></p>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="container footer">
+    <div class="row justify-content-center">
+      <a class="icon" href="https://github.com/toyoun" target="_blank"><i class="fab fa-github-square"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/tommy-youn/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a class="icon" href="https://www.facebook.com/tommy.youn.31" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    </div>
+    <img class="parrot transparent" src="./partyparrot.gif" />
+  </div>
 
-        
-        <div class="hero-background">
-        </div>
-
-        <div class="break">
-                <div data-aos="fade-up" data-aos-anchor="center-bottom" data-aos-easing="linear" class="box1 box1-pos1">
-                    <p class="about__me-text">About Me</p>
-                </div>
-        </div>
-
-        <div class="about__me">
-            <div class="about__me-section">
-                <div class="about__me-paragraph1-format">
-                    <p data-aos="fade-right" data-aos-duration="2000" class="about__me-paragraph1">I am a student at <b style="font-size: 20pt"> Cal Poly SLO </b> studying Computer Science and Art</p>
-                    <p data-aos="fade-right" data-aos-duration="2000" class="about__me-paragraph2">I currently work as a student assistant for Cal Poly Scholars, am a video game artist and developer, and make animations.</p>
-                </div>
-                <div>
-                    <div data-aos="fade-left" class="box1 box1-pos2"></div>
-                    <img alt="Picture of Tommy" class="image-cropper about__me-image" src="pictureofme.jpg">
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div data-aos="fade-right" class="box1 box1-pos3"></div>
-            <div class="break">
-                <div class="box1 box1-pos1">
-                    <div class="projects-text">Projects</div>
-                </div>
-            </div>
-            <div data-aos="fade-right" class="box1 box1-pos4"></div>
-        </div>
-
-
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
 

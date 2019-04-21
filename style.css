@@ -5,6 +5,7 @@
  
 body {
     margin: 0;
+    background: #b7e3cc;
 }
 
 .fade-in {
@@ -40,220 +41,33 @@ animation-delay: 1.2s;
 animation-delay: 1.6s;
 }
 
-i.fas,
-i.fab
+.hero
 {
-    color: rgba(209, 219, 230, 0.866);
-
+    width: 100vw;
+    height: 85vh;
 }
 
-.fa-facebook
+.transparent
 {
-    margin-left: 60rem;
-    position: absolute;
-    margin-top: 30rem;
+    opacity: 0.02;
 }
 
-.fa-github-square
+.award
 {
-    margin-left: 55rem;
-    position: absolute;
-    margin-top: 30rem;
+    opacity: 0.6;
 }
 
-#github
+.icon
 {
-    position: absolute;
-
-}
-
-#linkedIn
-{
-
-}
-
-#email
-{
-
-}
-
-#instagram
-{
-
-}
-
-.hero-name
-{
-    font-size: 2em;
-    width: 100%;
-    height: 100vh;
-    color: rgb(239, 242, 245);
-    font-family: 'Share';
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: inherit;
+    margin: 0 7px 0 7px;
+    font-size: 2.5em;
 }
 
 .parrot
 {
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    opacity: 0.05;
-    background-size: 100%;
-}
-
-.hero-background
-{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    background-size: cover;
-    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
-}
-
-.break
-{
-    position: relative;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 10em;
-    background-color: #472557;
-    box-shadow: 10px, 10px, black;
-}
-
-.about__me-text
-{
-    width: 100%;
-    height: 3em;
-    margin-left: 6rem;
-    color: rgb(239, 242, 245);
-    font-size: 3em;
-    font-family: 'Share';
-    text-transform: uppercase;
-}
-
-.about__me
-{
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-color: linear-gradient(-141deg, red, green) ;
-}
-
-.about__me-section
-{
-    position: relative;
-    height: 30em;
-    display: grid;
-    grid-template-columns: 60% 40%
-}
-
-.about__me-paragraph1
-{
-    text-align: center;
-    margin: 12rem auto auto 8rem;
-    height: 50%;
-    width: auto;
-    color: rgb(239, 242, 245);
-    text-transform: uppercase;
-    font-family: 'Comfortaa';
-    font-size: 15pt;
-}
-
-.about__me-paragraph2
-{
-    text-align: center;
-    margin: auto auto auto 8rem;
-    height: 50%;
-    width: auto;
-    color: rgb(239, 242, 245);
-    text-transform: uppercase;
-    font-family: 'Comfortaa';
-    font-size: 15pt;
-}
-
-.about__me-paragraph1-format
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.image-cropper {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    /*border-radius: 50%;*/
-    /*box-shadow: 5px 5px 8px #1d8a99;*/
-    opacity: 0.95;
-}
-
-.about__me-image
-{
-    margin-left: 4rem;
-    margin-top: 3.5rem;
-    height: 12em;
-    width: auto;
-    box-shadow: 5px 5px 8px #342e37;
-}
-
-.projects-text
-{
-    width: 100%;
-    height: 3em;
-    margin: 3rem 6rem;
-    color: rgb(239, 242, 245);
-    font-size: 3em;
-    font-family: 'Share';
-    text-transform: uppercase;
-}
-
-.box1
-{
-    width: 20em;
-    height: 8em;
-    background: rgb(135, 81, 139);
-    box-shadow: -5px 5px 8px #342e37;
-}
-
-.box1-pos1
-{
-    margin-top: 3em;
+    bottom: 0;
+    right: 3rem;
     position: absolute;
-    z-index: 1;
-}
-
-.box1-pos2
-{
-    width: 100%;
-    height: 1em;
-    margin-top: 10rem;
-    margin-left: 0%;
-    z-index: -1;
-    box-shadow: 5px 5px 8px #342e37;
-    overflow: hidden;
-}
-
-.box1-pos3
-{
-    margin-top: 4rem;
-    width: 18rem;
-    height: 1em;
-    z-index: -1;
-    box-shadow: -5px 5px 8px #342e37;
-}
-
-.box1-pos4
-{
-    margin: 20rem 3rem;
-    width: 20rem;
-    height: 1em;
-    z-index: -1;
-    box-shadow: -5px 5px 8px #342e37;
+    height: 200px;
 }
