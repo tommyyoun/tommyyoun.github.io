@@ -5,7 +5,6 @@
  
 body {
     margin: 0;
-    background: #b7e3cc;
 }
 
 .fade-in {
@@ -43,8 +42,20 @@ animation-delay: 1.6s;
 
 .hero
 {
+    margin: 0;
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
+}
+
+.hero-content
+{
+    background: #e9ecef;
+}
+
+footer
+{
+    height: 10vh;
+    background: #b7e3cc;
 }
 
 .transparent
